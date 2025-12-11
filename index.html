@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lanches & Bebidas - Delivery</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container navbar-container">
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-burger"></i> Lanches & Bebidas
+      </a>
+      <button class="navbar-toggler" id="menu-toggle" aria-label="Abrir menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="navbar-menu" id="navbar-menu">
+        <ul class="navbar-nav">
+          <li><a class="nav-link" href="#home"><i class="fas fa-home me-2"></i>Home</a></li>
+          <li><a class="nav-link" href="cardapio.html"><i class="fas fa-utensils me-2"></i>Cardápio</a></li>
+          <li><a class="nav-link" href="#destaques"><i class="fas fa-star me-2"></i>Destaques</a></li>
+          <li><a class="nav-link" href="#contato"><i class="fas fa-envelope me-2"></i>Contato</a></li>
+          <li>
+            <a class="" href="#" id="link-pedidos">
+             
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<section id="home" class="hero-section">
+    <div class="container text-center">
+      <h1 class="hero-title">Bem-vindo ao Lanches & Bebidas!</h1>
+      <p class="hero-subtitle">Os melhores sabores, entregues com carinho na sua porta! 🚀</p>
+
+<br>
+      <a href="cardapio.html" class="btn btn-hero">
+        <i class="fas fa-utensils me-2"></i>Explorar Cardápio
+      </a>
+    </div>
+  </section>
+  <section class="stats-section">
+    <div class="container">
+      <div class="grid-4">
+        <div class="stat-item">
+          <div class="stat-number"><i class="fas fa-users"></i> 10k+</div>
+          <div class="stat-label">Clientes Felizes</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number"><i class="fas fa-hamburger"></i> 50k+</div>
+          <div class="stat-label">Pedidos Entregues</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number"><i class="fas fa-star"></i> 4.9</div>
+          <div class="stat-label">Avaliação Média</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number"><i class="fas fa-clock"></i> 30min</div>
+          <div class="stat-label">Tempo de Entrega</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </section>
+<section 
+  class="carousel-container" 
+  aria-label="Galeria de Imagens Promocionais" 
+  role="region"
+>
+    <div class="carousel-track" id="carousel-track">
+      <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1 de 4">
+        <img src="https://blog.connectplug.com.br/wp-content/uploads/2018/05/group-friends-eating-together-scaled.jpg" alt="Grupo de amigos felizes comendo em uma mesa de restaurante" loading="lazy">
+      </div>
+      <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="4 de 4">
+        <img src="https://blog.connectplug.com.br/wp-content/uploads/2018/05/group-friends-eating-together-scaled.jpg" alt="Grupo de amigos felizes comendo em uma mesa de restaurante" loading="lazy">
+      </div>
+<div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1 de 4">
+        <img src="https://blog.connectplug.com.br/wp-content/uploads/2018/05/group-friends-eating-together-scaled.jpg" alt="Grupo de amigos felizes comendo em uma mesa de restaurante" loading="lazy">
+      </div>
+      <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="4 de 4">
+        <img src="https://blog.connectplug.com.br/wp-content/uploads/2018/05/group-friends-eating-together-scaled.jpg" alt="Grupo de amigos felizes comendo em uma mesa de restaurante" loading="lazy">
+      </div>
+<div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1 de 4">
+        <img src="https://blog.connectplug.com.br/wp-content/uploads/2018/05/group-friends-eating-together-scaled.jpg" alt="Grupo de amigos felizes comendo em uma mesa de restaurante" loading="lazy">
+      </div>
+      <div class="carousel-slide" role="group" aria-roledescription="slide" aria-label="4 de 4">
+        <img src="https://blog.connectplug.com.br/wp-content/uploads/2018/05/group-friends-eating-together-scaled.jpg" alt="Grupo de amigos felizes comendo em uma mesa de restaurante" loading="lazy">
+      </div>
+    </div>
+    
+    <button 
+        class="carousel-btn btn-prev" 
+        id="prevBtn" 
+        data-target="prev" 
+        aria-controls="carousel-track" 
+        aria-label="Slide anterior"
+    >
+        &#10094;
+    </button>
+    
+    <button 
+        class="carousel-btn btn-next" 
+        id="nextBtn" 
+        data-target="next" 
+        aria-controls="carousel-track" 
+        aria-label="Próximo slide"
+    >
+        &#10095;
+    </button>
+    
+</section>
+  <section id="destaques" class="features-section">
+    <div class="container">
+      <div class="section-header text-center text-white">
+        <h2 class="section-title title-white">Por que escolher a gente?</h2>
+        <p class="lead mt-3">Qualidade, sabor e atendimento que fazem a diferença!</p>
+      </div>
+      <div class="grid-4">
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fas fa-truck-fast"></i></div>
+          <h5 class="feature-title">Entrega Rápida</h5>
+          <p>Seu pedido chega em até 30 minutos, quentinho e fresquinho!</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fas fa-award"></i></div>
+          <h5 class="feature-title">Qualidade Premium</h5>
+          <p>Ingredientes selecionados e preparados com todo cuidado.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fas fa-hand-holding-dollar"></i></div>
+          <h5 class="feature-title">Preço Justo</h5>
+          <p>Sabor incrível sem pesar no bolso. Vale cada centavo!</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon"><i class="fas fa-headset"></i></div>
+          <h5 class="feature-title">Suporte 24/7</h5>
+          <p>Estamos sempre prontos para te atender com um sorriso.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contato" class="contact-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2 class="section-title">Entre em Contato</h2>
+        <p class="lead">Tem alguma dúvida ou sugestão? Adoraríamos ouvir você! 💬</p>
+      </div>
+      <div class="form-wrapper">
+        <form id="form-contato" class="contact-form">
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label"><i class="fas fa-user me-2 text-primary"></i>Seu Nome</label>
+              <input type="text" class="form-control" placeholder="Digite seu nome" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label"><i class="fas fa-envelope me-2 text-primary"></i>Seu Email</label>
+              <input type="email" class="form-control" placeholder="seu@email.com" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label"><i class="fas fa-phone me-2 text-primary"></i>Telefone</label>
+              <input type="tel" class="form-control" placeholder="(00) 00000-0000">
+            </div>
+            <div class="form-group">
+              <label class="form-label"><i class="fas fa-tag me-2 text-primary"></i>Assunto</label>
+              <select class="form-control">
+                <option>Dúvida</option>
+                <option>Sugestão</option>
+              </select>
+            </div>
+            <div class="form-group full-width">
+              <label class="form-label"><i class="fas fa-message me-2 text-primary"></i>Mensagem</label>
+              <textarea class="form-control" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            </div>
+            <div class="form-group full-width">
+              <button type="submit" class="btn btn-submit w-100">
+                <i class="fas fa-paper-plane me-2"></i>Enviar Mensagem
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="grid-3 footer-grid">
+        <div class="footer-col">
+          <h6 class="mb-3"><i class="fas fa-burger me-2"></i>Lanches & Bebidas</h5>
+          <p>Sabor e qualidade em cada mordida. Fazendo sua refeição mais feliz desde 2020! 🍔</p>
+        </div>
+        <div class="footer-col">
+          <h6 class="mb-3"><i class="fas fa-clock me-2"></i>Horário de Funcionamento</h6>
+          <p>Segunda a Sexta: 11h - 23h</p>
+          <p>Sábado e Domingo: 11h - 00h</p>
+        </div>
+        <div class="footer-col">
+          <h6 class="mb-3"><i class="fas fa-map-marker-alt me-2"></i>Localização</h6>
+          <p>Rio Grande, RS - Brasil</p>
+          <p>(53) 99999-9999</p>
+          <p>contato@lanchesebebidas.com</p>
+        </div>
+      </div>
+      <hr class="footer-divider">
+      <div class="text-center">
+        <div class="social-links mb-3">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="mb-0">&copy; 2025 Lanches & Bebidas. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+  </div>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="script.js"></script> 
+</body>
+</html>
